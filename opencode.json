@@ -1,0 +1,55 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "leo/claude-opus",
+  "provider": {
+    "leo": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Brave Leo Premium",
+      "options": {
+        "baseURL": "http://127.0.0.1:8765/v1",
+        "apiKey": "leo"
+      },
+      "models": {
+        "claude-opus": {
+          "name": "Claude Opus (Leo)"
+        },
+        "claude-sonnet": {
+          "name": "Claude Sonnet (Leo)"
+        },
+        "gpt-5-6-terra-bedrock": {
+          "name": "GPT 5.6 Terra (Leo)"
+        },
+        "grok-4-6-bedrock": {
+          "name": "Grok 4.6 (Leo)"
+        },
+        "qwen": {
+          "name": "Qwen 3.5 35B (Leo)"
+        },
+        "qwen-3-8-flash-next": {
+          "name": "Qwen 3.8 Flash Next (Leo)"
+        },
+        "deepseek-v3-2": {
+          "name": "DeepSeek V3.2 (Leo)"
+        },
+        "kimi-k2-5": {
+          "name": "Kimi K2.5 (Leo)"
+        },
+        "mistral-large": {
+          "name": "Mistral Large 3 (Leo)"
+        },
+        "nemotron-nano-3-30b": {
+          "name": "Nemotron Nano 3 30B (Leo)"
+        },
+        "glm-4-7-flash": {
+          "name": "GLM 4.7 Flash (Leo)"
+        },
+        "glm-5-3-flash": {
+          "name": "GLM 5.3 Flash (Leo)"
+        },
+        "gpt-5-6-luna-bedrock": {
+          "name": "GPT 5.6 Luna (Leo)"
+        }
+      }
+    }
+  }
+}
